@@ -41,7 +41,7 @@ class Job(models.Model):
     quotation_date = models.DateField()
     invoice_date = models.DateField()
 
-    def __str__(self)
+    def __str__(self):
         return f"{self.customer}, {self.address.postcode}"
 
 
